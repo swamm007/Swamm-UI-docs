@@ -1,0 +1,26 @@
+{
+  "name": "swamm-ui-docs",
+  "version": "1.0.0",
+  "description": "vue ui Swamm-Ui",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swamm007/Swamm-UI-docs.git"
+  },
+  "keywords": [
+    "Vue",
+    "UI",
+    "Swamm"
+  ],
+  "author": "swamm",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/swamm007/Swamm-UI-docs/issues"
+  },
+  "homepage": "https://github.com/swamm007/Swamm-UI-docs#readme"
+}
