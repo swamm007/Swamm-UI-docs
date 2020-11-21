@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/swamm007/Swamm-UI-docs/issues"
   },
-  "homepage": "https://github.com/swamm007/Swamm-UI-docs#readme"
+  "homepage": "https://github.com/swamm007/Swamm-UI-docs#readme",
+  "devDependencies": {
+    "vuepress": "^1.7.1"
+  }
 }

@@ -1,4 +1,5 @@
 module.exports = {
+    base: '/Swamm-UI-docs/',
     title: 'SWAMM-UI',
     description: 'JUST FOR WHELL',
     head: [
