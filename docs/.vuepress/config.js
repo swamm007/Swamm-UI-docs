@@ -14,6 +14,7 @@ module.exports = {
                 text: 'JAVASCRIPT',
                 items: [
                   { text: 'js基础', items:[
+                      {text: '浏览器内置对象', link: '/js/browser'},
                       {text: '作用域', link: '/js/scope'},
                       {text: '闭包', link: '/js/closures'},
                       {text: 'this指针', link: '/js/this'},
@@ -34,6 +35,7 @@ module.exports = {
                     title: 'JS基础',
                     children: [
                         '',
+                        'browser',
                         'scope',
                         'closures',
                         'this'
