@@ -15,15 +15,17 @@ module.exports = {
                 items: [
                   { text: 'js基础', items:[
                       {text: '浏览器内置对象', link: '/js/browser'},
-                      {text: '作用域', link: '/js/scope'},
-                      {text: '闭包', link: '/js/closures'},
-                      {text: 'this指针', link: '/js/this'},
+                      {text: '事件', link: '/js/event'},
+                      {text: 'ajax', link: '/js/ajax'},
+                    //   {text: '作用域', link: '/js/scope'},
+                    //   {text: '闭包', link: '/js/closures'},
+                    //   {text: 'this指针', link: '/js/this'},
                   ]},
-                  { text: 'ES6', items:[
-                      {text: 'let const', link: '/'},
-                      {text: 'Array扩展', link: '/'},
-                      {text: '对象扩展', link: '/'},
-                  ] }
+                //   { text: 'ES6', items:[
+                //       {text: 'let const', link: '/'},
+                //       {text: 'Array扩展', link: '/'},
+                //       {text: '对象扩展', link: '/'},
+                //   ] }
                 ]
             },
             { text: 'GITHUB', link: 'https://www.baidu.com' }
@@ -36,9 +38,11 @@ module.exports = {
                     children: [
                         '',
                         'browser',
-                        'scope',
-                        'closures',
-                        'this'
+                        'event',
+                        'ajax',
+                        // 'scope',
+                        // 'closures',
+                        // 'this'
                     ]
                 }
             ],
